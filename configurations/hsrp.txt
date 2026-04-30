@@ -1,0 +1,8 @@
+!
+interface Vlan10
+ mac-address 00e0.f99a.8801
+ ip address 192.168.10.1 255.255.255.0
+ standby 20 ip 192.168.10.254
+ standby 20 priority 110
+ standby 20 preempt
+!

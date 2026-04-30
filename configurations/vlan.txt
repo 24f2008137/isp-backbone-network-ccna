@@ -1,0 +1,17 @@
+!
+interface Vlan10
+ mac-address 0090.2160.ba01
+ ip address 192.168.50.2 255.255.255.0
+!
+interface Vlan20
+ mac-address 0090.2160.ba02
+ ip address 192.168.60.2 255.255.255.0
+!
+interface FastEthernet0/3
+ switchport access vlan 10
+ switchport mode access
+!
+interface FastEthernet0/4
+ switchport access vlan 20
+ switchport mode access
+!
